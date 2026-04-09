@@ -152,6 +152,7 @@ tr.row-overdue td {
   color: white;
 }
 .btn-primary:hover {
+  transform: scaleX();
   background: #4338ca;
 }
 .btn-done {
@@ -210,10 +211,6 @@ tr.row-overdue td {
   font-size: 15px;
   outline: none;
   transition: border 0.2s;
-}
-
-.form-group input.date {
-  text-transform: uppercase;
 }
 
 .form-group input:focus {
